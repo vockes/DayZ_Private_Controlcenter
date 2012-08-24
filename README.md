@@ -25,10 +25,12 @@ ________________________________________________________________________________
 2. Requirements:
 ================
 
- - Windows XP, Vista or 7 (8 currently unsupported)
- - .Net Framework 4
- - ArmA 2 OA (Beta Patch 95883)
- - DayZ 1.7.2.5
+ - Windows XP, Vista, 7, Server 2008
+ - .Net Framework 4 (http://www.microsoft.com/download/en/details.aspx?id=24872)
+ - Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)
+ - Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
+ - ArmA 2 OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)
+ - DayZ 1.7.2.5 (http://dayzmod.com/?Download)
 
 3. Installation:
 ================
