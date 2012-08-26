@@ -32,11 +32,10 @@ ________________________________________________________________________________
  - Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
  - ArmA 2 OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)
  - DayZ 1.7.2.5 (http://dayzmod.com/?Download)
+ - DayZ Lingor if you want to play it: (http://www.load.to/ggWB6nQmt1/DayZ_Lingor_Island_034_full.part1.rar, http://www.load.to/jgBcQKnZE8/DayZ_Lingor_Island_034_full.part2.rar)
 
 3. Installation:
 ================
-
- Unblock your downloaded file with the script, if there is a "Unblock" button in propertys for the files!
 
  Start the setup wizard and follow the instruction to install the server to your system.
  After installing you can start using the Controlcenter. Please read the next paragraph for
@@ -46,31 +45,27 @@ ________________________________________________________________________________
 =====================
 
  The Controlcenter is your gate to everything related to your own private DayZ server.
-
  These three options are available after installation:
 
- - "Configuration" allows you to change every single aspect of your server. Starting with its name or more 
- security related things like a password, cheat protection or even precisly tuning options. Simply
- experiment with those.
+ - "Configuration" allows you to change every single aspect of your server. Starting with its name and the generation of vehicles over more 
+ security related things like a password, cheat protection to precise tuning options and a daytime only mode.
+ Experimentate with those.
 
  - "Database" is the controldesk to your characters and vehicles on the server. Using Chive you can change
- your inventory, move the timezone or whole vehicles.
+ your inventory, move the timezone or whole vehicles around the map.
 
- - "Administration" combines a easy to use interface with backup and restore options and everything
- webserver related.
+ - "Administration" combines an easy to use interface with backup and restore options and options to control the webserver.
 
 
  Database
  --------
 
  To start editing wait until Chive has connected to MySQL sucessfully, login using default MySQL information
- and select the database "dayz". Now you are able to edit everything in there (To view the contents of a
- table you have to click on "Browse" sometimes) ...
+ and select the database "dayz". Now you can see and edit all information (To view the contents of a
+ table you have to click on "Browse") ...
 
  - instances:
-   Only instance 1 is used. Here you can move the timezone of the server according to your own, change
-   the starting loadout a new player gets or more complex messaging options. Everything is explained at
-   the colums.
+   Move the timezone of the server, change the starting loadout a new player gets or more complex messaging options.
 
  - log_code:
    Description for log. Not interesting.
@@ -88,25 +83,21 @@ ________________________________________________________________________________
    Medical Line:  [dead|unconscious|infected|injured|pain|cardiac arrest|low blood|blood count|[wounds]|[leg fractures|arm fractures]|time unconscious|[X|X]]  
 
  - objects:
-   Contains all ingame vehicles, which can be spawned from the "Vehicles" Tab ("Vehicle Generating Script")
-   found under "Configuration" in the Controlcenter. Changeable options are the damage, damaged vehicle
-   parts, fuel, inventory and similar.
+   Contains all ingame vehicles, tents and similar, which can be spawned from the "Vehicles" Tab ("Vehicle Generating Script")
+   found under "Configuration" in the Controlcenter. Changeable options are damage, damaged parts, fuel, inventory and more.
 
  - objects_classes:
    Uninteresting, used by the admin tool.
 
  - scheduler:
-   You can create messages here, that will be shown ingame.
+   You can create messages and scripts here, that will be shown or executed ingame.
 
  - spawns:
    All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you
-   can add new vehicle positions through the table.
+   can add new vehicle spawn positions in the table.
 
  - users:
    Contains users from the admin tool and their hashed passwords.
-
- - whitlist:
-   Allows you to create a whitelist (not yet fully implemented, has no effect in game).
 
 
  Administration
@@ -121,7 +112,7 @@ ________________________________________________________________________________
    to write into the global server chat when BattlEye is enabled.
 
  - Control:
-   "Manage admin" allows you to create new users to login into this tool. But a lot more interesting is
+   "Manage admin" allows you to create new users to login into this tool. But most important:
    "Configuration", where you can start and stop your private DayZ server!
 
  - Entitys:
@@ -133,8 +124,7 @@ ________________________________________________________________________________
    where you are, simply look here or get information about near vehicles (for example how damaged they
    are) or other players.
 
- To logout again, simply press that button on the right top corner. There is a search field to find
- players and similar in the lists.
+ To logout again, press that button on the right top corner.
 
 
 5. Default Login information:
@@ -154,7 +144,7 @@ ________________________________________________________________________________
  Password: adminpass
 
  - DayZ Server:
- Administrator Password: adminpass
+ Administration Password: adminpass
 
 
 6. Troubleshooting:
@@ -173,6 +163,6 @@ ________________________________________________________________________________
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  Problem:	MySQL Server/Apache don't start, they crash or do nothing.
- Solution:	Update the server with "reconfigurate" option in the Set Up Wizard.
+ Solution:	Update the server with "reconfigurate" option in the Set Up Wizard  and make sure port 78 is not blocked using the Netstat button in "xampp_control.exe" in your @DayZ_Blizzard folder!.
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
