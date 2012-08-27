@@ -28,16 +28,18 @@ ________________________________________________________________________________
 
  - Windows XP, Vista, 7, Server 2008
  - .Net Framework 4 (http://www.microsoft.com/download/en/details.aspx?id=24872)
- - Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)
- - Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
- - ArmA 2 Combined Operations with OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)
+ - [Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)]
+ - [Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)]
+ - [ArmA 2 Combined Operations with OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)]
  - DayZ 1.7.2.5 (http://dayzmod.com/?Download)
  - DayZ Lingor if you want to play it: (http://www.load.to/ggWB6nQmt1/DayZ_Lingor_Island_034_full.part1.rar, http://www.load.to/jgBcQKnZE8/DayZ_Lingor_Island_034_full.part2.rar)
+
+ The "[...]" requirements can be installed from the setup wizard.
 
 3. Installation:
 ================
 
- If you have steam: Start ArmA 2 once with steam and quit again, repeat the same with OA. Now copy the "Addons" folder in your "ArmA 2" folder into your "ArmA 2 Operation Arrowhead" folder to have Combined Operations.
+ If you have steam: Start ArmA 2 once with steam and quit again, repeat the same with OA. Now copy the "Addons" folder in your "ArmA 2" folder into your "ArmA 2 Operation Arrowhead" folder to have Combined Operations. Now start Combined Operations through Steam one time for the keys to generate!
 
  Make sure no previous server package is installed (please install from a fresh ArmA with latest patch).
  Start the setup wizard and follow the instruction to install the server to your system.
