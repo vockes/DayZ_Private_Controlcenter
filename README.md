@@ -37,7 +37,7 @@ ________________________________________________________________________________
 3. Installation:
 ================
 
- If you have steam: Copy the "ArmA 2" folder into your "ArmA 2 OA" folder to have Combined Operations.
+ If you have steam: Start ArmA 2 once with steam and quit again, repeat the same with OA. Now copy the "Addons" folder in your "ArmA 2" folder into your "ArmA 2 Operation Arrowhead" folder to have Combined Operations.
 
  Make sure no previous server package is installed (please install from a fresh ArmA with latest patch).
  Start the setup wizard and follow the instruction to install the server to your system.
