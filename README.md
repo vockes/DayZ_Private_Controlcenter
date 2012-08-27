@@ -37,6 +37,9 @@ ________________________________________________________________________________
 3. Installation:
 ================
 
+ If you have steam: Copy the "ArmA 2" folder into your "ArmA 2 OA" folder to have Combined Operations.
+
+ Make sure no previous server package is installed (please install from a fresh ArmA with latest patch).
  Start the setup wizard and follow the instruction to install the server to your system.
  After installing you can start using the Controlcenter. Please read the next paragraph for
  more information on how to run your server! And do not forget to change default passwords!
