@@ -30,7 +30,7 @@ ________________________________________________________________________________
  - .Net Framework 4 (http://www.microsoft.com/download/en/details.aspx?id=24872)
  - Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)
  - Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)
- - ArmA 2 OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)
+ - ArmA 2 Combined Operations with OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)
  - DayZ 1.7.2.5 (http://dayzmod.com/?Download)
  - DayZ Lingor if you want to play it: (http://www.load.to/ggWB6nQmt1/DayZ_Lingor_Island_034_full.part1.rar, http://www.load.to/jgBcQKnZE8/DayZ_Lingor_Island_034_full.part2.rar)
 
@@ -57,8 +57,8 @@ ________________________________________________________________________________
  - "Administration" combines an easy to use interface with backup and restore options and options to control the webserver.
 
 
- Database
- --------
+ **Database**
+ ------------
 
  To start editing wait until Chive has connected to MySQL sucessfully, login using default MySQL information
  and select the database "dayz". Now you can see and edit all information (To view the contents of a
@@ -100,8 +100,8 @@ ________________________________________________________________________________
    Contains users from the admin tool and their hashed passwords.
 
 
- Administration
- --------------
+ **Administration**
+ ------------------
 
  Wait until the login page is displayer (can take some time). Login using default user and password 
  found below. This nice little interface allows you a lot of things. The server is started and stopped
@@ -152,17 +152,17 @@ ________________________________________________________________________________
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Problem:	Connection to admin tool or chive failes. "Apache" is not running.
- Solution:	Start Apache ("Local Administration" > "Start Apache Webserver")!
+ **Problem**:	Connection to admin tool or chive failes. "Apache" is not running.
+ **Solution**:	Start Apache ("Local Administration" > "Start Apache Webserver")!
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Problem:	MySQL Erros when admin tool and/or Chive are connecting.
- Solution:	Start MySQL ("Local Administration" > "Start MySQL Server")!
+ **Problem**:	MySQL Erros when admin tool and/or Chive are connecting.
+ **Solution**:	Start MySQL ("Local Administration" > "Start MySQL Server")!
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Problem:	MySQL Server/Apache don't start, they crash or do nothing.
- Solution:	Update the server with "reconfigurate" option in the Set Up Wizard  and make sure port 78 is not blocked using the Netstat button in "xampp_control.exe" in your @DayZ_Blizzard folder!.
+ **Problem**:	MySQL Server/Apache don't start, they crash or do nothing.
+ **Solution**:	Update the server with "reconfigurate" option in the Set Up Wizard  and make sure port 78 is not blocked using the Netstat button in "xampp_control.exe" in your @DayZ_Blizzard folder!.
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
