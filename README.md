@@ -26,7 +26,6 @@ ________________________________________________________________________________
 2. Requirements:
 ================
 
- - Windows XP, Vista, 7, Server 2008
  - .Net Framework 4 (http://www.microsoft.com/download/en/details.aspx?id=24872)
  - [Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)]
  - [Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)]
@@ -46,6 +45,8 @@ ________________________________________________________________________________
  After installing you can start using the Controlcenter. Please read the next paragraph for
  more information on how to run your server! And do not forget to change default passwords!
 
+ Updating is done with the setup wizard too! Just run it with that options and everything else is done automaticly!
+
 4. The Controlcenter:
 =====================
 
@@ -59,7 +60,7 @@ ________________________________________________________________________________
  - "Database" is the controldesk to your characters and vehicles on the server. Using Chive you can change
  your inventory, move the timezone or whole vehicles around the map.
 
- - "Administration" combines an easy to use interface with backup and restore options and options to control the webserver.
+ - "Administration" combines an easy to use interface with backup and restore function and options to control the your server.
 
 
  **Database**
@@ -117,14 +118,14 @@ ________________________________________________________________________________
    to write into the global server chat when BattlEye is enabled.
 
  - Control:
-   "Manage admin" allows you to create new users to login into this tool. But most important:
-   "Configuration", where you can start and stop your private DayZ server!
+   "Admins" allows you to create new users to login into this tool. But most important:
+   "Start/Stop", where you can start and stop your private DayZ server!
 
  - Entitys:
    Lists of ingame vehicles, spawn locations or player information. Basicly it is a graphical interface
    that shows you everything which can be seen in the database too (but editing is not possible yet).
 
- - Map View:
+ - Map:
    A really nice feature of this tool. It shows you all entitys on a map of chernarus. If you do not know
    where you are, simply look here or get information about near vehicles (for example how damaged they
    are) or other players.
@@ -141,7 +142,7 @@ ________________________________________________________________________________
  Username: admin
  Password: adminpass
 
- - MySQL/Chive:
+ - Chive/MySQL:
  Username: root
  Empty Password (You should change that)
 
@@ -168,6 +169,6 @@ ________________________________________________________________________________
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  **Problem**:	MySQL Server/Apache don't start, they crash or do nothing.
- **Solution**:	Update the server with "reconfigurate" option in the Set Up Wizard  and make sure port 78 is not blocked using the Netstat button in "xampp_control.exe" in your @DayZ_Blizzard folder!.
+ **Solution**:	Update the server with "reconfigurate" option in the Set Up Wizard and make sure port 78 is not blocked!
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
