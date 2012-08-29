@@ -29,7 +29,7 @@ ________________________________________________________________________________
  - .Net Framework 4 (http://www.microsoft.com/download/en/details.aspx?id=24872)
  - [Microsoft Visual C++ 2008 Redistributable Update (http://www.microsoft.com/en-us/download/details.aspx?id=11895)]
  - [Microsoft Visual C++ 2010 Redistributable (http://www.microsoft.com/en-us/download/details.aspx?id=8328)]
- - [ArmA 2 Combined Operations with OA Beta Patch 95885 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_95883.zip)]
+ - [ArmA 2 Combined Operations with OA Beta Patch 96061 (ftp://downloads.bistudio.com/arma2.com/update/beta/ARMA2_OA_Build_96061.zip)]
  - DayZ 1.7.2.5 (http://dayzmod.com/?Download)
  - DayZ Lingor if you want to play it: (http://www.load.to/ggWB6nQmt1/DayZ_Lingor_Island_034_full.part1.rar, http://www.load.to/jgBcQKnZE8/DayZ_Lingor_Island_034_full.part2.rar)
 
@@ -67,7 +67,7 @@ ________________________________________________________________________________
  ------------
 
  To start editing wait until Chive has connected to MySQL sucessfully, login using default MySQL information
- and select the database "dayz". Now you can see and edit all information (To view the contents of a
+ and select the database "dayz_chernarus" or "dayz_lingor" if you run a lingor server. Now you can see and edit all information (To view the contents of a
  table you have to click on "Browse") ...
 
  - instances:
@@ -83,14 +83,13 @@ ________________________________________________________________________________
    Contains action log from the admin tool.
 
  - main:
-   Player data is saved here. Every new character gets a unique id/uid. You can change the inventory,
-   health and many more player related here. Look at the description for each column.
+   Player data is saved here. Every new character gets a unique id/uid. You can change the inventory, health and many more player related here. Look at the description for each column.
+
    Position Line: [direction|[X|Y|Z]]
    Medical Line:  [dead|unconscious|infected|injured|pain|cardiac arrest|low blood|blood count|[wounds]|[leg fractures|arm fractures]|time unconscious|[X|X]]  
 
  - objects:
-   Contains all ingame vehicles, tents and similar, which can be spawned from the "Vehicles" Tab ("Vehicle Generating Script")
-   found under "Configuration" in the Controlcenter. Changeable options are damage, damaged parts, fuel, inventory and more.
+   Contains all ingame vehicles, tents and similar, which can be spawned from the "Vehicles" Tab ("Vehicle Generating Script") found under "Configuration" in the Controlcenter. Changeable options are damage, damaged parts, fuel, inventory and more.
 
  - objects_classes:
    Uninteresting, used by the admin tool.
@@ -99,8 +98,7 @@ ________________________________________________________________________________
    You can create messages and scripts here, that will be shown or executed ingame.
 
  - spawns:
-   All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you
-   can add new vehicle spawn positions in the table.
+   All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you can add new vehicle spawn positions in the table.
 
  - users:
    Contains users from the admin tool and their hashed passwords.
