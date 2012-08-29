@@ -172,3 +172,8 @@ ________________________________________________________________________________
  **Solution**:	Update the server with "reconfigurate" option in the Set Up Wizard and make sure port 78 is not blocked!
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ **Problem**:	Server does not appear in online server list.
+ **Solution**:	Open these ports: UDP 2300-2400, 47624-47624, 28800-28900; TCP 2300-2400, 47624-47624 and make sure reporting Ip is set to "master.gamespy.com" and your router does not block anything.
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
