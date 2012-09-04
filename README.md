@@ -102,7 +102,7 @@ ________________________________________________________________________________
    All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you can add new vehicle spawn positions in the table.
 
  - users:
-   Contains users from the admin tool and their hashed passwords.
+   Contains users from the admin tool, their hashed passwords and permissions.
 
 
  **Administration**
@@ -117,17 +117,18 @@ ________________________________________________________________________________
    to write into the global server chat when BattlEye is enabled.
 
  - Control:
-   "Admins" allows you to create new users to login into this tool. But most important:
-   "Start/Stop", where you can start and stop your private DayZ server!
+   Allows you to start and stop your server, BattlEye Extended Controls and DayZ AntiHax!
+
+ - Configuration:
+   Goto "Users" to manage administrators and other users plus their permissions.
 
  - Entitys:
    Lists of ingame vehicles, spawn locations or player information. Basicly it is a graphical interface
    that shows you everything which can be seen in the database too (but editing is not possible yet).
 
  - Map:
-   A really nice feature of this tool. It shows you all entitys on a map of chernarus. If you do not know
-   where you are, simply look here or get information about near vehicles (for example how damaged they
-   are) or other players.
+   Display all the entitys on a map of chernarus or lingor. If you do not know where you are, simply look here 
+   or get information about near vehicles and other players.
 
  To logout again, press that button on the right top corner.
 
@@ -139,7 +140,7 @@ ________________________________________________________________________________
 
  - Admin Tool:
  Username: admin
- Password: adminpass
+ Password: adminpass (You should change that)
 
  - Chive/MySQL:
  Username: root
@@ -174,5 +175,15 @@ ________________________________________________________________________________
 
  **Problem**:	Server does not appear in online server list.
  **Solution**:	Open these ports: UDP 2300-2400, 47624-47624, 28800-28900; TCP 2300-2400, 47624-47624 and make sure reporting Ip is set to "master.gamespy.com" and your router does not block anything.
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ **Problem**:	Stuck at waiting for host and "Mission read from bank" spam in the server window.
+ **Solution**:	Make sure you have installed DayZ and Combined Operations. Look in the admin tool configuration and check if @DayZ is loaded!
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ **Problem**:	Stuck at loading on the server.
+ **Solution**:	Make sure the database according to your setup and a mysql user "dayz" with the right password and privileges exist!
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
