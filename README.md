@@ -72,6 +72,7 @@ ________________________________________________________________________________
 
  - instances:
    Move the timezone of the server, change the starting loadout a new player gets or more complex messaging options.
+   Example loadout: [["ItemMap","ItemCompass","ItemMatchbox","FoodCanBakedBeans","ItemKnife","FoodCanBakedBeans"],["ItemTent","ItemBandage","ItemBandage"]]
 
  - log_code:
    Description for log. Not interesting.
