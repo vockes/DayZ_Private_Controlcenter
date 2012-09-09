@@ -53,14 +53,16 @@ ________________________________________________________________________________
  The Controlcenter is your gate to everything related to your own private DayZ server.
  These three options are available after installation:
 
- - "Configuration" allows you to change every single aspect of your server. Starting with its name and the generation of vehicles over more 
- security related things like a password, cheat protection to precise tuning options and a daytime only mode.
- Experimentate with those.
+ - "Configuration" allows you to change every single aspect of your server. Starting with its name over more 
+ security related things like a password, cheat protection and precise tuning options or daytime only mode activation.
+ Experimentate here.
 
  - "Database" is the controldesk to your characters and vehicles on the server. Using Chive you can change
  your inventory, move the timezone or whole vehicles around the map.
 
  - "Administration" combines an easy to use interface with backup and restore function and options to control the your server.
+
+ - "Information" displays you all the relevant status information and monitors the servers performance.
 
 
  **Database**
@@ -71,22 +73,29 @@ ________________________________________________________________________________
  table you have to click on "Browse") ...
 
  - instances:
-   Move the timezone of the server, change the starting loadout a new player gets or more complex messaging options.
+   Move the timezone of the server, change the starting loadout a new player gets and allows you to enable the whitelist.
+
    Example loadout: [["ItemMap","ItemCompass","ItemMatchbox","FoodCanBakedBeans","ItemKnife","FoodCanBakedBeans"],["ItemTent","ItemBandage","ItemBandage"]]
+
+   Whitelist: To enable the whitelist set it to "1" at your instance. Now set "is_whitelisted" to "1" on every profile you whish like to be able to join the server.
 
  - log_code:
    Description for log. Not interesting.
 
  - log_entry:
-   New server logging feature.
+   Server logging feature.
 
  - log_tool:
    Contains action log from the admin tool.
 
- - main:
-   Player data is saved here. Every new character gets a unique id/uid. You can change the inventory, health and many more player related here. Look at the description for each column.
+ - profile:
+   Stores player data including their unique_id and global humanity. Match the unique_id to a character in the survivor table for more details about him.
+
+ - survivor:
+   Player data is saved here. Every new character gets a unique id. To match the character to a player just compare the unique_id! You can change the inventory, health and everything character related here. Look at the description for each column.
 
    Position Line: [direction|[X|Y|Z]]
+
    Medical Line:  [dead|unconscious|infected|injured|pain|cardiac arrest|low blood|blood count|[wounds]|[leg fractures|arm fractures]|time unconscious|[X|X]]  
 
  - objects:
@@ -99,7 +108,7 @@ ________________________________________________________________________________
    You can create messages and scripts here, that will be shown or executed ingame.
 
  - spawns:
-   All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you can add new vehicle spawn positions in the table.
+   All possible spawn locations for vehicles here. They are used by the vehicle generation script, so you can add new vehicle spawn positions and their chance in the table.
 
  - users:
    Contains users from the admin tool, their hashed passwords and permissions.
